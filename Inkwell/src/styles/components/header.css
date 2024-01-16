@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--background-main);
+    padding: 2em;
+    max-width: 1500px;
+    margin: 0 auto;
+    z-index: 1;
+
+    & img {
+        width: clamp(10em, 10.5vw, 14em);    
+    }
+}

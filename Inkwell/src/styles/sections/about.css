@@ -1,0 +1,17 @@
+.aboutSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 8em 2em;
+    align-items: center;
+    background-color: var(--background-secondary);
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+@media (max-width: 1200px) {
+    .aboutSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+}

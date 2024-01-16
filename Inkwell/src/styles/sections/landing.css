@@ -1,0 +1,42 @@
+.landing {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    padding: 8em 2em;
+    min-height: 100vh;
+    scroll-snap-align: center;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h1 {
+            margin-bottom: .5em;
+        }
+    }
+}
+.downArrow {
+    display: grid;
+    align-items: center;
+    width: clamp(4em, 7.5vw, 7em);
+    height: clamp(4em, 7.5vw, 7em);
+    background-color: var(--text-main);
+    border-radius: 50px;
+
+    &:hover {
+        background-color: var(--highlight-bright);
+    }
+    &:focus-visible {
+        background-color: var(--highlight-bright);
+    }
+    & img {
+        padding: .75em;
+    }
+}
+@media (max-width: 1200px) {
+    .landing {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

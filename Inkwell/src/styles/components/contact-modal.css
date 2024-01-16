@@ -1,0 +1,107 @@
+.modalContainer {
+    position: fixed;
+    top: 2em;
+    right: 2em;
+    left: 2%;
+    z-index: 10;   
+    
+}
+
+.modalInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--background-secondary);
+    border-radius: 10px;
+    box-shadow: 2px 1px 4px 2px #1d2a6b72;
+
+    & h3 {
+        margin-bottom: .5em;
+    }
+  }
+
+
+  .modalButton {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    background: var(--highlight-bright);
+    color: var(--background-secondary);
+    font-size: clamp(1rem, 4.5vw, 2rem);
+    padding: .7em 1em .5em 1em;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 11;
+    transition: background-color .15s ease-in-out;
+
+    &:hover{
+        background-color: #FFD700;
+        color: var(--text-main);
+      }
+      &:focus-visible {
+        background-color: #FFD700;
+        color: var(--text-main);
+
+      }
+  }
+  @media (min-width: 1500px) {
+    .modalContainer {
+        right: calc((101% - 1500px) / 2);  
+        left: calc((101% - 1500px) / 2);  
+    }
+    .modalButton {
+        right: calc((101% - 1500px) / 2);  
+    }
+}
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em 2em;
+    
+
+    & button {
+        color: var(--background-secondary);
+        font-size: clamp(1rem, 7.5vw, 2rem);
+        text-decoration: none;
+        background-color: var(--highlight-bright);
+        padding: .7em 1em .5em;
+        border-radius: 100px;
+        transition: all 200ms;
+        
+        &:hover{
+            background-color: #FFD700;
+            color: var(--text-main);
+          }
+          &:focus-visible {
+            background-color: #FFD700;
+            color: var(--text-main);
+
+          }
+    }
+    & p {
+        font-size: clamp(1rem, 4.5vw, 2rem);
+    }
+}
+
+input, textarea {
+    color: var(--main-light);
+    background-color: var(--main-dark);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: clamp(1rem, 7.5vw, 2rem);
+    border-radius: .5em;
+    box-shadow: var(--inner-shadow);
+    
+}
+input {
+    margin-bottom: .5em;
+    padding: 1em;
+}
+textarea {
+    padding: 1.5em 1em;
+    resize: none;
+}
+label {
+    font-size: 1.5em;
+    margin: .3em 0;
+}
+

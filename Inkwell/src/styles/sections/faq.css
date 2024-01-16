@@ -1,0 +1,54 @@
+.faqSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--background-secondary);
+  padding: 8em 0 0;
+  min-height: 100vh;
+  scroll-snap-align: start;
+
+    & h2 {
+        text-align: center;
+    }
+}
+.AccordionContainer {
+    background-color: var(--background-main);
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 2em 1em 2em;
+    border-radius: 10px;
+    font-size: clamp(1rem, 4.5vw, 1.8rem);
+
+}
+.AccordionItem {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: var(--background-secondary);
+  }
+  .AccordionHeader {
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color .15s ease-in-out;
+  
+    &:hover{
+      background-color: #FFD700;
+    }
+    &.active{
+      background-color: #FFD700;
+    }
+    &:focus-visible {
+      background-color: #FFD700;
+    }
+  }
+  
+  .AccordionPanel{
+    padding: 2.3em;
+  }
+  @media (max-width: 768px) {
+    .AccordionContainer {
+      width: 100%;
+    }
+  }
+  
+ 
