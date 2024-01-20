@@ -3,7 +3,7 @@
     min-height: 100vh;
     scroll-snap-align: start;
 
-    & h2 {
+    & h2, p {
         text-align: center;
     }
 }

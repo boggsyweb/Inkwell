@@ -6,9 +6,17 @@ footer {
     margin-top: 1.5em;
     padding: .5em;
 
-    font-size: clamp(1rem, 4.5vw, 2rem);
+    font-size: clamp(1rem, 10.5vw, 1.5rem);
+
+}
+.footerLogo      {
+    width: clamp(4em, 10.5vw, 10em);  
+}
+.qboBadges {
+    display: flex;
+    gap: .5em;
 
     & img {
-        width: clamp(7em, 7.5vw, 10em);  
+        width: clamp(2em, 7.5vw, 4em);
     }
 }

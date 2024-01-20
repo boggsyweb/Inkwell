@@ -6,18 +6,6 @@ import '../styles/sections/services.css'
 
 const Services = () =>{
 
-    const cardContainer = {
-        hidden: { opacity: 0 },
-        show: {
-            opacity: 1,
-            transition: {
-                staggerChildren: 0.1,
-                delayChildren: 0.3,
-            },
-        },
-    }
-
-
     return (
         <motion.section
             className='servicesSection'
@@ -31,6 +19,7 @@ const Services = () =>{
             <h2>
                 SERVICES
             </h2>
+            <p>Services can include the following:</p>
             <div className='serviceCards'
             >
                 <motion.div className='serviceCard'
@@ -46,8 +35,7 @@ const Services = () =>{
                         <li>Set up new books or transfer existing ones.</li>
                         <li>Help you decide which level of service is right for your business.</li>
                         <li>Train you how to use your software.</li>
-                        <li>And more... Reach out for details.</li>
-
+                        
                     </ul>
                     <img src={Setup} alt="illustration of hand tools" />
 
@@ -65,7 +53,6 @@ const Services = () =>{
                         <li>Enter and classify monthly transactions.</li>
                         <li>Run relevant financial reports.</li>
                         <li>Act as a liason between you and your CPA or accountant.</li>
-                        <li>And more... Reach out for details.</li>
                     </ul>
                     <img src={Manage} alt="illustration of bar graph" />
                 </motion.div>
@@ -82,7 +69,6 @@ const Services = () =>{
                         <li>Reclassify errors and fix other mistakes.</li>
                         <li>Reconcile past transactions correctly.</li>
                         <li>Set you up with a system to allow you to be successful in the future.</li>
-                        <li>And more... Reach out for details.</li>
                     </ul>
                     <img src={Cleanup} alt="illustration of broom sweeping dust" />
                 </motion.div>
