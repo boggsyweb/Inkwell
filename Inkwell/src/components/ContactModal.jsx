@@ -37,7 +37,8 @@ const ContactModal = () => {
                 <motion.button 
                 className="modalButton"
                 layout
-                onClick={cycleOpen}>
+                onClick={cycleOpen}
+                >
                 {open ?  "CLOSE" : "CONTACT"}
                 </motion.button>
   

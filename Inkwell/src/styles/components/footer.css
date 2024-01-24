@@ -1,22 +1,36 @@
 footer {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     background-color: var(--background-main);
     margin-top: 1.5em;
     padding: .5em;
 
-    font-size: clamp(1rem, 10.5vw, 1.5rem);
+    font-size: clamp(1rem, 4.5vw, 1.25rem);
 
 }
-.footerLogo      {
-    width: clamp(4em, 10.5vw, 10em);  
-}
+
 .qboBadges {
+    justify-self: end;
     display: flex;
     gap: .5em;
 
     & img {
         width: clamp(2em, 7.5vw, 4em);
+        
+    }
+}
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+
+    & a {
+        color: inherit;
+        transition: all 0.3s;
+    }
+
+    & a:hover {
+        color: var(--highlight-bright);
     }
 }

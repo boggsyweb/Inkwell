@@ -1,6 +1,7 @@
 .modalContainer {
+    display: grid;
     position: fixed;
-    top: 2em;
+    top: 2.7em;
     right: 2em;
     left: 2%;
     z-index: 10;   
@@ -8,23 +9,25 @@
 }
 
 .modalInner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: .25fr 1fr;
+    justify-items: center; 
     background: var(--background-secondary);
     border-radius: 10px;
     box-shadow: 2px 1px 4px 2px #1d2a6b72;
 
     & h3 {
         margin-bottom: .5em;
+        grid-area: 1 / 1 / 2 / 3; 
     }
   }
 
 
   .modalButton {
-    position: fixed;
-    top: 1em;
-    right: 1em;
+    position: fixed; 
+    /* top: 2.2%;  */
+    right: 1.2em;
     background: var(--highlight-bright);
     color: var(--background-secondary);
     font-size: clamp(1rem, 4.5vw, 2rem);
@@ -54,6 +57,7 @@
     }
 }
   form {
+    grid-area: 2 / 1 / 3 / 3;
     display: flex;
     flex-direction: column;
     padding: 0 2em 2em;
