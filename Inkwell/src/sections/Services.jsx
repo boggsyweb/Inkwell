@@ -33,8 +33,8 @@ const Services = () =>{
                     <h3>Set-Up</h3>
                     <ul>
                         <li>Set up new books or transfer existing ones.</li>
-                        <li>Help you decide which level of service is right for your business.</li>
-                        <li>Train you how to use your software.</li>
+                        <li>Help choosing the right level of service for your business.</li>
+                        <li>Software and basic bookkeeping training.</li>
                         
                     </ul>
                     <img src={Setup} alt="illustration of hand tools" />
@@ -53,6 +53,7 @@ const Services = () =>{
                         <li>Enter and classify monthly transactions.</li>
                         <li>Run relevant financial reports.</li>
                         <li>Act as a liason between you and your CPA or accountant.</li>
+                        <li>Payroll</li>
                     </ul>
                     <img src={Manage} alt="illustration of bar graph" />
                 </motion.div>
@@ -64,11 +65,11 @@ const Services = () =>{
                     viewport={{ once: true }}       
                 >
                     <span></span>
-                    <h3>Clean Up/Catch Up</h3>
+                    <h3>Clean-Up</h3>
                     <ul>
                         <li>Reclassify errors and fix other mistakes.</li>
                         <li>Reconcile past transactions correctly.</li>
-                        <li>Set you up with a system to allow you to be successful in the future.</li>
+                        <li>Create customized systems to help prevent future mistakes and backlogs.</li>
                     </ul>
                     <img src={Cleanup} alt="illustration of broom sweeping dust" />
                 </motion.div>

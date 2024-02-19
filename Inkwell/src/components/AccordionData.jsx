@@ -5,23 +5,23 @@ const AccordionData = [
   },
   {
     header: "Do you do taxes?",
-    panel: "No, I am not an accountant or CPA. I cannot prepare your returns, nor can advise you on your federal, state, or local tax obligations. I can however, make sure your books are ready to hand off to your accountant, making tax time as easy as possible. I am also happy to work alongside your acocountant or other tax professional, answering questions and providing necessary details about your operations."
+    panel: "No, I am not an accountant or CPA. I cannot prepare your returns, nor can advise you on your federal, state, or local tax obligations. I can however, make sure your books are ready to hand off to your accountant, making tax time as easy as possible. I am also happy to work alongside your accountant or other tax professional, answering questions and providing necessary details about your operations."
   },
   {
     header: "What types of businesses do you work with?",
-    panel: "I love working with all types of small and medium-sized businesses! Some current clients include content-creators, business consultants, ecommerce stores, real estate investors, artists, and more. At this time however, I do not provide services to lawyers or medical practices: These industries have specific needs that fall outside of my areas of expertise."
+    panel: "I love working with all types of small and medium-sized businesses! Some current clients include content-creators, business consultants, ecommerce stores, real estate investors, artists, and more."
   },
   {
     header: "Do I have to have Quickbooks Online to work with you?",
-    panel: "While I can work with other accounting platforms, my preference is to set up and migrate my clients to Quickbooks Online. As a Quickbooks ProAdvisor, I can offer extensive training and significant discounts to my clients. ProAdvisors are also required to re-qualify every year to ensure they are current with any changes to the platform. They also have access to esclusive support from Quickbooks, which will make your experience as a client even better."
+    panel: "While I can work with other accounting platforms, my preference is to set up and migrate my clients to Quickbooks Online. As a Quickbooks ProAdvisor, I can offer extensive training and significant discounts to my clients. ProAdvisors are also required to re-qualify every year to ensure they stay current with any changes to the platform. Because we also have access to exclusive support from Quickbooks, the up-to-date and accurate information we can pass along to clients is unparalleled."
   },
   {
     header: "How much do you charge?",
-    panel: "The amount I charge varies greatly, depending on the scope of the work you hire me to do. I am always transparent about pricing and will work with you to find you the best solution for your budget. Reach out for more details by clicking the Contact button."
+    panel: "The amount I charge varies greatly, depending on the scope of the work you hire me to do. I am always transparent about pricing and will work with you to find you the best solution for your budget. Reach out for more details by clicking the Contact button and don't forget to ask about multi-business discounts."
   },
   {
     header: "Why do I need an accountant and a bookkeeper?",
-    panel: "A bookkeeper is responsible for keeping track of your day-to-day transactions, including reconciling your accounts, providing financial reports, helping you create budgets, and running payroll. An accountant can offer financial advice, help you create a tax strategy, and completes your taxes. While the two roles sometimes overlap, it is a good idea to work with both, so you know that all aspects of your business finances are taken care of."
+    panel: "A bookkeeper is responsible for keeping track of your day-to-day transactions, including reconciling your accounts, providing financial reports, helping you create budgets, and running payroll. An accountant can offer financial advice, help you create a tax strategy, and completes your taxes. While the two roles sometimes overlap, it is a good idea to work with both, so you know that all aspects of your business’s finances are well taken care of."
   },
   {
     header: "My books are a mess! What do I do?",
@@ -33,7 +33,7 @@ const AccordionData = [
   },
   {
     header: "Since you're remote, how do I get my documents to you?",
-    panel: "For any sensitive financial and personal information, each client gets their own secure portal they can upload their documents into. For less sensitive documents like receipts, clients can use Quickbooks Online, email, sms, or any number of other services."
+    panel: "Sensitive financial and personal information can be uploaded into a client's private portal where the data is securely encrypted. Other, less sensitive documents like receipts can be sent through email, sms, or through Quickbooks Online. Most bank and credit card statements can be set up to automatically upload to a client's Quickbooks account."
   },
 ];
 export default AccordionData
