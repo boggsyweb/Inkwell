@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xqkrkrrb");
+  const [state, handleSubmit] = useForm("xpzvlpay");
   if (state.succeeded) {
       return <p>Thanks! I'll be in touch shortly.</p>;
   }
@@ -38,13 +38,26 @@ function ContactForm() {
           field="email"
           errors={state.errors}
         />
+        <label htmlFor="service">What types of services do you need?</label>
+    <select name="service" id="service" required="">
+        <option value="" defaultValue disabled="">Select</option>
+        <option value="SetUp">Set up new business</option>
+        <option value="Manage">Manage existing business</option>
+        <option value="CleanUp">Clean-up or catch-up</option>
+        <option value="Other">Other</option>
+    </select>
+      <ValidationError 
+            prefix="Service" 
+            field="service"
+            errors={state.errors}
+          />
         <label htmlFor="message">
           Your Message
         </label>
         <textarea
           id="message"
           name="message"
-          placeholder='Please do not enter any sensitive information in this field.'
+          placeholder='Please do not send any sensitive information through this form.'
         />
         <ValidationError 
           prefix="Message" 

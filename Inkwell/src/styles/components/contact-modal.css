@@ -1,11 +1,10 @@
 .modalContainer {
     display: grid;
     position: fixed;
-    top: 2.7em;
-    right: 2em;
+    top: 2em;
+    right: 2%;
     left: 2%;
-    z-index: 10;   
-    
+    z-index: 10;       
 }
 
 .modalInner {
@@ -23,11 +22,10 @@
     }
   }
 
-
   .modalButton {
     position: fixed; 
     /* top: 2.2%;  */
-    right: 1.2em;
+    right: 1.4em;
     background: var(--highlight-bright);
     color: var(--background-secondary);
     font-size: clamp(1rem, 4.5vw, 2rem);
@@ -54,6 +52,11 @@
     }
     .modalButton {
         right: calc((101% - 1500px) / 2);  
+    }
+}
+@media (max-width: 768px) {
+    .modalButton {
+        right: .6em
     }
 }
   form {
@@ -93,8 +96,7 @@ input, textarea {
     font-family: 'Josefin Sans', sans-serif;
     font-size: clamp(1rem, 7.5vw, 2rem);
     border-radius: .5em;
-    box-shadow: var(--inner-shadow);
-    
+    box-shadow: var(--inner-shadow);    
 }
 input {
     margin-bottom: .5em;
@@ -107,5 +109,15 @@ textarea {
 label {
     font-size: 1.5em;
     margin: .3em 0;
+}
+
+select {
+    color: var(--main-light);
+    background-color: var(--main-dark);
+    font-family: 'Josefin Sans', sans-serif;
+    padding: .3em;
+    font-size: 1.5em;
+    border: #5FAFFF solid 2px;
+    border-radius: 5px;
 }
 

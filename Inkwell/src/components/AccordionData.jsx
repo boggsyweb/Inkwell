@@ -13,11 +13,11 @@ const AccordionData = [
   },
   {
     header: "Do I have to have Quickbooks Online to work with you?",
-    panel: "While I can work with other accounting platforms, my preference is to set up and migrate my clients to Quickbooks Online. As a Quickbooks ProAdvisor, I can offer extensive training and significant discounts to my clients. ProAdvisors are also required to re-qualify every year to ensure they stay current with any changes to the platform. Because we also have access to exclusive support from Quickbooks, the up-to-date and accurate information we can pass along to clients is unparalleled."
+    panel: "While I can work with other accounting platforms, my preference is to set up and migrate my clients to Quickbooks Online. As a Quickbooks ProAdvisor, I can offer extensive training to my clients. Some clients even qualify for significant discounts on their Quickbooks subscriptions when working with a ProAdvisor! ProAdvisors are also required to re-qualify every year to ensure they stay current with any changes to the platform. Because we also have access to exclusive support from Quickbooks, the up-to-date and accurate information we can pass along to clients is unparalleled."
   },
   {
     header: "How much do you charge?",
-    panel: "The amount I charge varies greatly, depending on the scope of the work you hire me to do. I am always transparent about pricing and will work with you to find you the best solution for your budget. Reach out for more details by clicking the Contact button and don't forget to ask about multi-business discounts."
+    panel: "The amount I charge varies greatly, depending on the scope of the work you hire me to do. That said, my minimum monthly fee starts at $100 for new and very small businesses and goes up from there. For one-time services like clean-ups, the rate will be tallied based on the estimated hours needed to complete the job. I am always transparent and up front about pricing and will work with you to find you the best solution for your budget."
   },
   {
     header: "Why do I need an accountant and a bookkeeper?",
@@ -33,7 +33,7 @@ const AccordionData = [
   },
   {
     header: "Since you're remote, how do I get my documents to you?",
-    panel: "Sensitive financial and personal information can be uploaded into a client's private portal where the data is securely encrypted. Other, less sensitive documents like receipts can be sent through email, sms, or through Quickbooks Online. Most bank and credit card statements can be set up to automatically upload to a client's Quickbooks account."
+    panel: "Most bank and credit card statements can be set up to automatically upload to a client's Quickbooks account. Other sensitive financial and personal information can be uploaded into a client's Quickbooks account directly, or I can provide a secure and encrypted portal. Less sensitive documents like receipts can be sent through email, sms, and of course through Quickbooks Online."
   },
 ];
 export default AccordionData
