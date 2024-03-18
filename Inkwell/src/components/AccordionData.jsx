@@ -17,7 +17,7 @@ const AccordionData = [
   },
   {
     header: "How much do you charge?",
-    panel: "The amount I charge varies greatly, depending on the scope of the work you hire me to do. That said, my minimum monthly fee starts at $100 for new and very small businesses and goes up from there. For one-time services like clean-ups, the rate will be tallied based on the estimated hours needed to complete the job. I am always transparent and up front about pricing and will work with you to find you the best solution for your budget."
+    panel: "Monthly maintenace fees start at $150 for new businesses with minimal transactions. Fees increase from there depending on the size of the business and complexity of the duties. One-time services like clean-ups, will be tallied based on the estimated hours needed to complete the job. I am always transparent and up front about pricing and will happily work with you to find you the best solution for your budget."
   },
   {
     header: "Why do I need an accountant and a bookkeeper?",
